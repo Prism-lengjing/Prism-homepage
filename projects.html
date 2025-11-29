@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NovaDev - Future Team</title>
+    <link rel="stylesheet" href="css/style.css">
+    
+    <!-- 1. 引入 EmailJS SDK (用于发送邮件) -->
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+    <script type="text/javascript">
+       (function(){
+          // ⚠️ 请在这里替换你的 EmailJS Public Key
+          // 如果还没有 key，先保留这个字符串，网页也能正常打开
+          emailjs.init("rHTdrsEUQT7m0UMbt");
+       })();
+    </script>
+</head>
+<body>
+    <!-- 2. 背景粒子画布 -->
+    <canvas id="particle-canvas"></canvas>
+
+    <!-- 3. 页面主体 (由 JS 填充) -->
+    <header><!-- 导航栏 --></header>
+    <main id="content-area"><!-- 页面内容 --></main>
+    <footer><!-- 页脚 --></footer>
+
+    <!-- 4. 脚本引入 -->
+    <script src="js/data.js"></script>     <!-- 数据源 -->
+    <script src="js/script.js"></script>   <!-- 核心逻辑 -->
+    <script src="js/particles.js"></script> <!-- 粒子特效 -->
+</body>
+</html>
