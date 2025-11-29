@@ -1,7 +1,7 @@
 const siteData = {
     config: {
-        teamName: "NovaDev",
-        email: "contact@novadev.com"
+        teamName: "Prism OSS Team",
+        email: "CloudForge-official@yunforge.xyz"
     },
     i18n: {
         zh: {
@@ -25,7 +25,7 @@ const siteData = {
                 message: "留言内容",
                 submit: "发送消息"
             },
-            footer: "© 2024 NovaDev Team. All rights reserved."
+            footer: "© 2024 Prism OSS Team Team. All rights reserved."
         },
         en: {
             nav: ["Home", "About", "Members", "Projects", "Contact"],
@@ -48,7 +48,7 @@ const siteData = {
                 message: "Message",
                 submit: "Send Message"
             },
-            footer: "© 2024 NovaDev Team. All rights reserved."
+            footer: "© 2024 Prism OSS Team. All rights reserved."
         }
     },
     members: [
